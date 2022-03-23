@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+* {
+    box-sizing: border-box;
+    padding-top: 0px;
+
+    
+  }
+  body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    padding-top: 5px;
+  }
+  .row {
+    margin: 0 -5px;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(66, 61, 61, 0.2);
+    padding : 20px;
+    text-align: center;
+    background-color: #e8edee;
+  }
+  .pbutton {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(250, 238, 238);
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .pbutton:hover {
+    opacity: 0.7;
+  }
+  @media screen and (max-width: 100px) {
+    ul{
+      background-color: green;
+    }
+  }
+  .card img{
+    max-width:  300px;
+     max-height: 200px;
+     min-height: 250px;
+     min-width: 100%;
+    border-radius: 5px;
+  }
+  .card h2{
+    color: rgb(33, 33, 167);
+  }
+  .card h3{
+    color: rgb(18, 58, 134);
+  }

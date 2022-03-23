@@ -22,8 +22,71 @@ li a {
 li a:hover {
   background-color: #111;
 }
-@media screen and (max-width: 200px) {
+/* @media screen and (max-width: 200px) {
   ul{
     background-color: green;
   }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(207, 154, 154, 0.2);
+ width: 300px;
+  margin:10px;
+  text-align: center;
+  font-family: arial;
+  margin: 5px;
+  
+  
+}
+.price {
+  color: rgb(214, 183, 183);
+  font-size: 22px;
+}
+.pbutton {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: rgb(167, 28, 28);
+  background-color: rgb(223, 160, 160);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.pbutton:hover {
+  opacity: 0.7;
+}
+
+.mdiv {
+   display: inline-flex;
+   flex-direction: row;
+} */
+*{
+  box-sizing: border-box;
+} */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {
+  margin: 0 -5px;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
 }
