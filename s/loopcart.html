@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red {
+            border: 1px solid red;
+            margin: 5px;
+        }
+
+        .yellow {
+            border: 1px solid green;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var arrayVariable = ["one", "two", "three","Five","kdbkjf"];
+        var arrayLength = arrayVariable.length;
+        var temp;
+
+        for (i = 0; i < arrayLength; i++) {
+            if (i % 2 == 0) {
+                temp = document.createElement('div');
+                temp.className = 'red';
+                temp.innerHTML = arrayVariable[i];
+                document.getElementsByTagName('body')[0].appendChild(temp);
+            } else {
+                temp = document.createElement('div');
+                temp.className = 'yellow';
+                temp.innerHTML = arrayVariable[i];
+                document.getElementsByTagName('body')[0].appendChild(temp).appendChild(t);
+            }
+        }
+    </script>
+</body>
+
+</html>

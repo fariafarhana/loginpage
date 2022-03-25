@@ -17,16 +17,12 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
   li a:hover {
     background-color: #111;
   }
-
 * {
     box-sizing: border-box;
-    padding-top: 0px;
-
-    
+    padding-top: 0px; 
   }
   body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
@@ -34,7 +30,7 @@ ul {
   .column {
     float: left;
     width: 25%;
-    padding: 0 10px;
+    padding: z0 10px;
     padding-top: 5px;
   }
   .row {
@@ -45,7 +41,6 @@ ul {
       width: 100%;
       display: block;
       margin-bottom: 20px;
-    
     }
   }
   .card {
