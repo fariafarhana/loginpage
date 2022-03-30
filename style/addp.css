@@ -40,7 +40,7 @@ input[type=text], input[type=password] {
     display: inline-flex;
     width: 100%;
   }
-  .container {
+  /* .container {
     display: inline-flex;
     position: relative;
     padding-left: 35px;
@@ -92,7 +92,7 @@ input[type=text], input[type=password] {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
+  } */
   body{
     background-image: url("/assets/image/background.jpg");
   }
