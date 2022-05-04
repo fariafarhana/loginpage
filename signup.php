@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +12,29 @@
 </head>
 
 <body class="bg">
+<?php
+include 'config.php';
+error_reporting(0);
+    $first_name=$_POST['first_name'];
+    $last_name=$_POST['last_name'];
+    $phone_number=$_POST['phone_number'];
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+    $confirm_password=$_POST['confirm_password'];
+    $save=$_POST['save'];
+    $info=" ";
+
+  if(!empty($save)){
+      echo "<script>alert('button is cliked')</script>";
+
+  }
+ 
+  if($con){
+      $info = "succcesfully connnected";
+  }else{
+      $info= "not connected";
+  }
+?>
 
     <div>
 
@@ -19,25 +44,30 @@
             <h1>
                 Create a Account
             </h1>
+            <p>
+                <?php
+                echo "Info " .$info;
+                ?>
+            </p>
         </div>
-        <form action="" >
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
             <div class="form-field">
-                <input type="text" placeholder="First name"><br>
+                <input type="text" name="first_name" placeholder="First name"><br>
             </div>
             <div class="form-field userform-field">
-                <input type="text" placeholder="Last name"><br>
+                <input type="text" name="last_name" placeholder="Last name"><br>
             </div>
             <div class="form-field">
-                <input type="text" placeholder="Phone number"><br>
+                <input type="text" name="phone_number" placeholder="Phone number"><br>
             </div>
             <div class="form-field">
-                <input type="text" placeholder="Email"><br>
+                <input type="text" name="email" placeholder="Email"><br>
             </div>
             <div class="form-field">
-                <input type="text" placeholder="Password"><br>
+                <input type="text" name="password" placeholder="Password"><br>
             </div>
             <div class="form-field">
-                <input type="text" name="" id="" placeholder="Confirm password"><br>
+                <input type="text" name="confirm_password" id="" placeholder="Confirm password"><br>
             </div>
             <!-- <div style="display: inline;color: rgb(241, 224, 224);padding-top: 3px;">
                 <div style="float: left;">

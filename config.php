@@ -2,11 +2,11 @@
 $server = "localhost";
 $user = "root";
 $pass = "";
-$database = "fdb";
+$database = "test";
 
-$conn = mysqli_connect($server, $user, $pass, $database);
+$con = mysqli_connect($server, $user, $pass, $database);
 
-if (!$conn) {
+if (!$con) {
     die("<script>alert('Connection Failed.')</script>");
 }else{
  //echo "<script>alert('Connected')</script>" ;  

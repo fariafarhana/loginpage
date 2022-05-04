@@ -54,7 +54,7 @@
 }
 .bg-image {
     /* The image used */
-    background-image: url("/assets/img/login_bg.jpg");
+    background-image: url("assets/img/login_bg.jpg");
     /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -66,8 +66,8 @@
     background-size: cover;
   }
   .bg {
-    background-image: url('/assets/image/background.jpg');
-    position: fixed;
+    /* background-image: url('assets/image/background.jpg'); */
+    position: fixed ;
     left: 0;
     top: 0;
     width: 100%;
@@ -98,38 +98,38 @@
     background-repeat: no-repeat;
   }
   form .form-field:nth-child(1)::before {
-    background-image: url(/assets/image/user.png);
+    background-image: url(assets/image/user.png);
     width: 20px;
     height: 20px;
     top: 15px;
   }
   form .form-field:nth-child(2)::before {
-    background-image: url(/assets/image/user.png);
+    background-image: url(assets/image/user.png);
     width: 16px;
     height: 16px;
   }
   form .form-field:nth-child(3)::before {
-    background-image: url(/assets/image/phone-call.png);
+    background-image: url(assets/image/phone-call.png);
     width: 16px;
     height: 16px;
   }
   form .form-field:nth-child(4)::before {
-    background-image: url(/assets/image/email.png);
+    background-image: url(assets/image/email.png);
     width: 16px;
     height: 16px;
   }
   form .form-field:nth-child(5)::before {
-    background-image: url(/assets/image/password.png);
+    background-image: url(assets/image/password.png);
     width: 16px;
     height: 16px;
   }
   form .form-field:nth-child(6)::before {
-    background-image: url(/assets/image/password.png);
+    background-image: url(assets/image/password.png);
     width: 16px;
     height: 16px;
   }
   form .userform-field:nth-child(2)::before {
-    background-image: url(/assets/image/user.png);
+    background-image: url(assets/image/user.png);
     width: 16px;
     height: 16px;
   }
